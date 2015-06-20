@@ -1,0 +1,47 @@
+/* Crowdfunding */
+#crowdfunding-status {
+    margin: 10px 0;
+    font-size: 10px;
+}
+
+#crowdfunding-progress-bar {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #555555;
+    position: relative;
+}
+
+#crowdfunding-progress {
+    height: 20px;
+    width:0;
+    margin:0;
+    padding:0;
+    display: block;
+    text-align: center;
+}
+
+#crowdfunding-ltext {
+    border-left: none;
+    width: 100%;
+    height:16px;
+    display: block;
+    padding:4px 0 0 0;
+    margin:0;
+    position: absolute;
+    left:0;
+    top:0;
+    text-align: center;
+}
+
+.cf-green {
+    background-color: #00AB1F;
+}
+
+.cf-orange {
+    background-color: #FFB200;
+}
+
+.cf-red {
+    background-color: #FF0000;
+}

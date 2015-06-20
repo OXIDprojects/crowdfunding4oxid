@@ -1,5 +1,7 @@
 # crowdfunding4oxid
+
 Turn your OXID eShop into a crowdfunding platform
+
 
 ## Installation / Config
 
@@ -8,15 +10,6 @@ Turn your OXID eShop into a crowdfunding platform
 3. Activate the module
 4. Configure module in settings tab
 
-	To display the the crowdfunding widget: "Support Crowdfunding" after the checkout, paste the following code into /out/azure/tpl/page/checkout/thankyou.tpl:
-
-    ``[{assign var="product" value=$order->getOneCrowdfundedArticleOfBasket()}]``
-    
-    ``[{if $product!= null}]``
-    
-    ``    [{include file="marm-crowdfunding-support.tpl"}]``
-    
-    ``[{/if}]``
 
 ## Usage
 
